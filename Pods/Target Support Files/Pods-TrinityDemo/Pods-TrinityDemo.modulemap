@@ -1,0 +1,6 @@
+framework module Pods_TrinityDemo {
+  umbrella header "Pods-TrinityDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
