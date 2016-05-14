@@ -7,29 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5410CD051CE5F4A900523993 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410CD041CE5F4A900523993 /* main.m */; };
-		5410CD081CE5F4A900523993 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410CD071CE5F4A900523993 /* AppDelegate.m */; };
-		5410CD0B1CE5F4A900523993 /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410CD0A1CE5F4A900523993 /* BookListViewController.m */; };
-		5410CD0E1CE5F4A900523993 /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5410CD0D1CE5F4A900523993 /* CartViewController.m */; };
-		5410CD111CE5F4A900523993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5410CD0F1CE5F4A900523993 /* Main.storyboard */; };
-		5410CD131CE5F4A900523993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5410CD121CE5F4A900523993 /* Assets.xcassets */; };
-		5410CD161CE5F4A900523993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5410CD141CE5F4A900523993 /* LaunchScreen.storyboard */; };
+		546376B41CE769B50024D9EE /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B11CE769B50024D9EE /* BookListViewController.m */; };
+		546376B51CE769B50024D9EE /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B31CE769B50024D9EE /* CartViewController.m */; };
+		546376BA1CE769BE0024D9EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B71CE769BE0024D9EE /* AppDelegate.m */; };
+		546376BC1CE769BE0024D9EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B91CE769BE0024D9EE /* main.m */; };
+		546376C31CE769CF0024D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546376BD1CE769CF0024D9EE /* Assets.xcassets */; };
+		546376C41CE769CF0024D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546376BF1CE769CF0024D9EE /* LaunchScreen.storyboard */; };
+		546376C51CE769CF0024D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546376C11CE769CF0024D9EE /* Main.storyboard */; };
+		546376C71CE76BA70024D9EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546376C61CE76BA70024D9EE /* Info.plist */; };
 		AE927D07ED0C7006259347DE /* Pods_TrinityDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E9B704A8E4477E852D131 /* Pods_TrinityDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5410CD001CE5F4A800523993 /* TrinityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5410CD041CE5F4A900523993 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5410CD061CE5F4A900523993 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5410CD071CE5F4A900523993 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5410CD091CE5F4A900523993 /* BookListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
-		5410CD0A1CE5F4A900523993 /* BookListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
-		5410CD0C1CE5F4A900523993 /* CartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
-		5410CD0D1CE5F4A900523993 /* CartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
-		5410CD101CE5F4A900523993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5410CD121CE5F4A900523993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5410CD151CE5F4A900523993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		5410CD171CE5F4A900523993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546376B01CE769B50024D9EE /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
+		546376B11CE769B50024D9EE /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
+		546376B21CE769B50024D9EE /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
+		546376B31CE769B50024D9EE /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
+		546376B61CE769BE0024D9EE /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		546376B71CE769BE0024D9EE /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		546376B91CE769BE0024D9EE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		546376BD1CE769CF0024D9EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		546376C01CE769CF0024D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		546376C21CE769CF0024D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		546376C61CE76BA70024D9EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TrinityDemo/Info.plist; sourceTree = SOURCE_ROOT; };
 		930E9B704A8E4477E852D131 /* Pods_TrinityDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrinityDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8C0D4B1C561FD50CBC2A7 /* Pods-TrinityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrinityDemo/Pods-TrinityDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EB9703DBF4A745D31CBF8B3B /* Pods-TrinityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrinityDemo/Pods-TrinityDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,27 +77,107 @@
 		5410CD021CE5F4A900523993 /* TrinityDemo */ = {
 			isa = PBXGroup;
 			children = (
-				5410CD061CE5F4A900523993 /* AppDelegate.h */,
-				5410CD071CE5F4A900523993 /* AppDelegate.m */,
-				5410CD091CE5F4A900523993 /* BookListViewController.h */,
-				5410CD0A1CE5F4A900523993 /* BookListViewController.m */,
-				5410CD0C1CE5F4A900523993 /* CartViewController.h */,
-				5410CD0D1CE5F4A900523993 /* CartViewController.m */,
-				5410CD0F1CE5F4A900523993 /* Main.storyboard */,
-				5410CD121CE5F4A900523993 /* Assets.xcassets */,
-				5410CD141CE5F4A900523993 /* LaunchScreen.storyboard */,
-				5410CD171CE5F4A900523993 /* Info.plist */,
-				5410CD031CE5F4A900523993 /* Supporting Files */,
+				546376A81CE7689E0024D9EE /* Models */,
+				546376AF1CE7689E0024D9EE /* Views */,
+				546376A71CE7689E0024D9EE /* Controllers */,
+				546376A91CE7689E0024D9EE /* Network */,
+				546376AB1CE7689E0024D9EE /* Utils */,
+				546376A61CE7689E0024D9EE /* Application */,
+				546376AA1CE7689E0024D9EE /* Resources */,
 			);
 			path = TrinityDemo;
 			sourceTree = "<group>";
 		};
-		5410CD031CE5F4A900523993 /* Supporting Files */ = {
+		546376A61CE7689E0024D9EE /* Application */ = {
 			isa = PBXGroup;
 			children = (
-				5410CD041CE5F4A900523993 /* main.m */,
+				546376B61CE769BE0024D9EE /* AppDelegate.h */,
+				546376B71CE769BE0024D9EE /* AppDelegate.m */,
+				546376C61CE76BA70024D9EE /* Info.plist */,
+				546376B91CE769BE0024D9EE /* main.m */,
 			);
-			name = "Supporting Files";
+			path = Application;
+			sourceTree = "<group>";
+		};
+		546376A71CE7689E0024D9EE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				546376B01CE769B50024D9EE /* BookListViewController.h */,
+				546376B11CE769B50024D9EE /* BookListViewController.m */,
+				546376B21CE769B50024D9EE /* CartViewController.h */,
+				546376B31CE769B50024D9EE /* CartViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		546376A81CE7689E0024D9EE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		546376A91CE7689E0024D9EE /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		546376AA1CE7689E0024D9EE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				546376BD1CE769CF0024D9EE /* Assets.xcassets */,
+				546376BE1CE769CF0024D9EE /* Base.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		546376AB1CE7689E0024D9EE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				546376AC1CE7689E0024D9EE /* Categories */,
+				546376AD1CE7689E0024D9EE /* Constants */,
+				546376AE1CE7689E0024D9EE /* Helpers */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		546376AC1CE7689E0024D9EE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		546376AD1CE7689E0024D9EE /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		546376AE1CE7689E0024D9EE /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		546376AF1CE7689E0024D9EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		546376BE1CE769CF0024D9EE /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				546376BF1CE769CF0024D9EE /* LaunchScreen.storyboard */,
+				546376C11CE769CF0024D9EE /* Main.storyboard */,
+			);
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		DD1EFF82F45F72FA12D1560D /* Pods */ = {
@@ -168,9 +249,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410CD161CE5F4A900523993 /* LaunchScreen.storyboard in Resources */,
-				5410CD131CE5F4A900523993 /* Assets.xcassets in Resources */,
-				5410CD111CE5F4A900523993 /* Main.storyboard in Resources */,
+				546376C71CE76BA70024D9EE /* Info.plist in Resources */,
+				546376C41CE769CF0024D9EE /* LaunchScreen.storyboard in Resources */,
+				546376C31CE769CF0024D9EE /* Assets.xcassets in Resources */,
+				546376C51CE769CF0024D9EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,30 +311,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5410CD0E1CE5F4A900523993 /* CartViewController.m in Sources */,
-				5410CD081CE5F4A900523993 /* AppDelegate.m in Sources */,
-				5410CD0B1CE5F4A900523993 /* BookListViewController.m in Sources */,
-				5410CD051CE5F4A900523993 /* main.m in Sources */,
+				546376B51CE769B50024D9EE /* CartViewController.m in Sources */,
+				546376B41CE769B50024D9EE /* BookListViewController.m in Sources */,
+				546376BC1CE769BE0024D9EE /* main.m in Sources */,
+				546376BA1CE769BE0024D9EE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5410CD0F1CE5F4A900523993 /* Main.storyboard */ = {
+		546376BF1CE769CF0024D9EE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5410CD101CE5F4A900523993 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5410CD141CE5F4A900523993 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5410CD151CE5F4A900523993 /* Base */,
+				546376C01CE769CF0024D9EE /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		546376C11CE769CF0024D9EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546376C21CE769CF0024D9EE /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
