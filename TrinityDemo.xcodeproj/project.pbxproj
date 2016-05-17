@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		541E7F741CE9D49E00B4992F /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E7F731CE9D49E00B4992F /* BookCell.m */; };
+		541E7F771CE9D5C300B4992F /* BookTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 541E7F761CE9D5C300B4992F /* BookTableViewController.m */; };
 		546376B41CE769B50024D9EE /* BookListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B11CE769B50024D9EE /* BookListViewController.m */; };
 		546376B51CE769B50024D9EE /* CartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B31CE769B50024D9EE /* CartViewController.m */; };
 		546376BA1CE769BE0024D9EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376B71CE769BE0024D9EE /* AppDelegate.m */; };
@@ -14,12 +16,24 @@
 		546376C31CE769CF0024D9EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546376BD1CE769CF0024D9EE /* Assets.xcassets */; };
 		546376C41CE769CF0024D9EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546376BF1CE769CF0024D9EE /* LaunchScreen.storyboard */; };
 		546376C51CE769CF0024D9EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546376C11CE769CF0024D9EE /* Main.storyboard */; };
-		546376C71CE76BA70024D9EE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 546376C61CE76BA70024D9EE /* Info.plist */; };
+		546376CA1CE8C8090024D9EE /* GoogleBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 546376C81CE8C8090024D9EE /* GoogleBooks.xcdatamodeld */; };
+		546376D51CE8CD300024D9EE /* Book+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376D21CE8CD300024D9EE /* Book+CoreDataProperties.m */; };
+		546376D61CE8CD300024D9EE /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376D41CE8CD300024D9EE /* Book.m */; };
+		546376DC1CE8CE710024D9EE /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376DB1CE8CE710024D9EE /* NSObject+Additions.m */; };
+		546376E01CE8D2CE0024D9EE /* GoogleBooksAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376DF1CE8D2CE0024D9EE /* GoogleBooksAPIClient.m */; };
+		546376E31CE8D7E80024D9EE /* GoogleBooksResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376E21CE8D7E80024D9EE /* GoogleBooksResponseSerializer.m */; };
+		546376E81CE8FBEE0024D9EE /* BooksManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 546376E71CE8FBEE0024D9EE /* BooksManager.m */; };
+		54A8BB5D1CEB177A000EB030 /* ApplicationHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8BB5C1CEB177A000EB030 /* ApplicationHelper.m */; };
+		54A8BB601CEB7A2A000EB030 /* BookDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A8BB5F1CEB7A2A000EB030 /* BookDetailsViewController.m */; };
 		AE927D07ED0C7006259347DE /* Pods_TrinityDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 930E9B704A8E4477E852D131 /* Pods_TrinityDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5410CD001CE5F4A800523993 /* TrinityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrinityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		541E7F721CE9D49E00B4992F /* BookCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		541E7F731CE9D49E00B4992F /* BookCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		541E7F751CE9D5C300B4992F /* BookTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewController.h; sourceTree = "<group>"; };
+		541E7F761CE9D5C300B4992F /* BookTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewController.m; sourceTree = "<group>"; };
 		546376B01CE769B50024D9EE /* BookListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookListViewController.h; sourceTree = "<group>"; };
 		546376B11CE769B50024D9EE /* BookListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookListViewController.m; sourceTree = "<group>"; };
 		546376B21CE769B50024D9EE /* CartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CartViewController.h; sourceTree = "<group>"; };
@@ -31,6 +45,25 @@
 		546376C01CE769CF0024D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		546376C21CE769CF0024D9EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		546376C61CE76BA70024D9EE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TrinityDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		546376C91CE8C8090024D9EE /* GoogleBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoogleBooks.xcdatamodel; sourceTree = "<group>"; };
+		546376D11CE8CD300024D9EE /* Book+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Book+CoreDataProperties.h"; sourceTree = "<group>"; };
+		546376D21CE8CD300024D9EE /* Book+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Book+CoreDataProperties.m"; sourceTree = "<group>"; };
+		546376D31CE8CD300024D9EE /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		546376D41CE8CD300024D9EE /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		546376DA1CE8CE710024D9EE /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		546376DB1CE8CE710024D9EE /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		546376DE1CE8D2CE0024D9EE /* GoogleBooksAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleBooksAPIClient.h; sourceTree = "<group>"; };
+		546376DF1CE8D2CE0024D9EE /* GoogleBooksAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleBooksAPIClient.m; sourceTree = "<group>"; };
+		546376E11CE8D7E80024D9EE /* GoogleBooksResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleBooksResponseSerializer.h; sourceTree = "<group>"; };
+		546376E21CE8D7E80024D9EE /* GoogleBooksResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleBooksResponseSerializer.m; sourceTree = "<group>"; };
+		546376E41CE8DE240024D9EE /* Errors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
+		546376E51CE8F0CA0024D9EE /* GoogleBooksAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoogleBooksAPI.h; sourceTree = "<group>"; };
+		546376E61CE8FBEE0024D9EE /* BooksManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BooksManager.h; sourceTree = "<group>"; };
+		546376E71CE8FBEE0024D9EE /* BooksManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BooksManager.m; sourceTree = "<group>"; };
+		54A8BB5B1CEB177A000EB030 /* ApplicationHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationHelper.h; sourceTree = "<group>"; };
+		54A8BB5C1CEB177A000EB030 /* ApplicationHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationHelper.m; sourceTree = "<group>"; };
+		54A8BB5E1CEB7A29000EB030 /* BookDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailsViewController.h; sourceTree = "<group>"; };
+		54A8BB5F1CEB7A2A000EB030 /* BookDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailsViewController.m; sourceTree = "<group>"; };
 		930E9B704A8E4477E852D131 /* Pods_TrinityDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TrinityDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6C8C0D4B1C561FD50CBC2A7 /* Pods-TrinityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TrinityDemo/Pods-TrinityDemo.release.xcconfig"; sourceTree = "<group>"; };
 		EB9703DBF4A745D31CBF8B3B /* Pods-TrinityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TrinityDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TrinityDemo/Pods-TrinityDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -81,11 +114,21 @@
 				546376AF1CE7689E0024D9EE /* Views */,
 				546376A71CE7689E0024D9EE /* Controllers */,
 				546376A91CE7689E0024D9EE /* Network */,
+				546376DD1CE8CF670024D9EE /* Services */,
 				546376AB1CE7689E0024D9EE /* Utils */,
 				546376A61CE7689E0024D9EE /* Application */,
 				546376AA1CE7689E0024D9EE /* Resources */,
 			);
 			path = TrinityDemo;
+			sourceTree = "<group>";
+		};
+		541E7F711CE9D48000B4992F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				541E7F721CE9D49E00B4992F /* BookCell.h */,
+				541E7F731CE9D49E00B4992F /* BookCell.m */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		546376A61CE7689E0024D9EE /* Application */ = {
@@ -106,6 +149,10 @@
 				546376B11CE769B50024D9EE /* BookListViewController.m */,
 				546376B21CE769B50024D9EE /* CartViewController.h */,
 				546376B31CE769B50024D9EE /* CartViewController.m */,
+				541E7F751CE9D5C300B4992F /* BookTableViewController.h */,
+				541E7F761CE9D5C300B4992F /* BookTableViewController.m */,
+				54A8BB5E1CEB7A29000EB030 /* BookDetailsViewController.h */,
+				54A8BB5F1CEB7A2A000EB030 /* BookDetailsViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -113,6 +160,10 @@
 		546376A81CE7689E0024D9EE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				546376D11CE8CD300024D9EE /* Book+CoreDataProperties.h */,
+				546376D21CE8CD300024D9EE /* Book+CoreDataProperties.m */,
+				546376D31CE8CD300024D9EE /* Book.h */,
+				546376D41CE8CD300024D9EE /* Book.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +171,10 @@
 		546376A91CE7689E0024D9EE /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				546376DE1CE8D2CE0024D9EE /* GoogleBooksAPIClient.h */,
+				546376DF1CE8D2CE0024D9EE /* GoogleBooksAPIClient.m */,
+				546376E11CE8D7E80024D9EE /* GoogleBooksResponseSerializer.h */,
+				546376E21CE8D7E80024D9EE /* GoogleBooksResponseSerializer.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -129,6 +184,7 @@
 			children = (
 				546376BD1CE769CF0024D9EE /* Assets.xcassets */,
 				546376BE1CE769CF0024D9EE /* Base.lproj */,
+				546376C81CE8C8090024D9EE /* GoogleBooks.xcdatamodeld */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -146,6 +202,8 @@
 		546376AC1CE7689E0024D9EE /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				546376DA1CE8CE710024D9EE /* NSObject+Additions.h */,
+				546376DB1CE8CE710024D9EE /* NSObject+Additions.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -153,6 +211,8 @@
 		546376AD1CE7689E0024D9EE /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				546376E51CE8F0CA0024D9EE /* GoogleBooksAPI.h */,
+				546376E41CE8DE240024D9EE /* Errors.h */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -160,6 +220,8 @@
 		546376AE1CE7689E0024D9EE /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				54A8BB5B1CEB177A000EB030 /* ApplicationHelper.h */,
+				54A8BB5C1CEB177A000EB030 /* ApplicationHelper.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -167,6 +229,7 @@
 		546376AF1CE7689E0024D9EE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				541E7F711CE9D48000B4992F /* Cells */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -178,6 +241,15 @@
 				546376C11CE769CF0024D9EE /* Main.storyboard */,
 			);
 			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		546376DD1CE8CF670024D9EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				546376E61CE8FBEE0024D9EE /* BooksManager.h */,
+				546376E71CE8FBEE0024D9EE /* BooksManager.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		DD1EFF82F45F72FA12D1560D /* Pods */ = {
@@ -249,7 +321,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546376C71CE76BA70024D9EE /* Info.plist in Resources */,
 				546376C41CE769CF0024D9EE /* LaunchScreen.storyboard in Resources */,
 				546376C31CE769CF0024D9EE /* Assets.xcassets in Resources */,
 				546376C51CE769CF0024D9EE /* Main.storyboard in Resources */,
@@ -311,10 +382,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				541E7F771CE9D5C300B4992F /* BookTableViewController.m in Sources */,
+				54A8BB601CEB7A2A000EB030 /* BookDetailsViewController.m in Sources */,
 				546376B51CE769B50024D9EE /* CartViewController.m in Sources */,
+				546376DC1CE8CE710024D9EE /* NSObject+Additions.m in Sources */,
 				546376B41CE769B50024D9EE /* BookListViewController.m in Sources */,
+				54A8BB5D1CEB177A000EB030 /* ApplicationHelper.m in Sources */,
+				546376D51CE8CD300024D9EE /* Book+CoreDataProperties.m in Sources */,
+				541E7F741CE9D49E00B4992F /* BookCell.m in Sources */,
 				546376BC1CE769BE0024D9EE /* main.m in Sources */,
 				546376BA1CE769BE0024D9EE /* AppDelegate.m in Sources */,
+				546376E81CE8FBEE0024D9EE /* BooksManager.m in Sources */,
+				546376D61CE8CD300024D9EE /* Book.m in Sources */,
+				546376CA1CE8C8090024D9EE /* GoogleBooks.xcdatamodeld in Sources */,
+				546376E31CE8D7E80024D9EE /* GoogleBooksResponseSerializer.m in Sources */,
+				546376E01CE8D2CE0024D9EE /* GoogleBooksAPIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +513,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrinityDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeesofts.TrinityDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinity.TrinityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -443,7 +525,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TrinityDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zeesofts.TrinityDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.trinity.TrinityDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -470,6 +552,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		546376C81CE8C8090024D9EE /* GoogleBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				546376C91CE8C8090024D9EE /* GoogleBooks.xcdatamodel */,
+			);
+			currentVersion = 546376C91CE8C8090024D9EE /* GoogleBooks.xcdatamodel */;
+			path = GoogleBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 5410CCF81CE5F4A800523993 /* Project object */;
 }

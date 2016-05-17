@@ -7,6 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import <MagicalRecord/MagicalRecord+Setup.h>
+
+#import "GoogleBooksAPIClient.h"
+#import "ApplicationHelper.h"
+#import "Errors.h"
+
 
 @interface AppDelegate ()
 
@@ -14,9 +20,23 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	// Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+	// Setup database
+	[self setupDB];
+	
+	// Initialize API client
+	[GoogleBooksAPIClient shared];
+	
+	// Observe for an application error notification
+	[[NSNotificationCenter defaultCenter] addObserverForName:kNotificationApplicationError object:nil queue:[NSOperationQueue mainQueue] usingBlock:^(NSNotification * _Nonnull note) {
+		[ApplicationHelper showAlertWithError:note.userInfo[@"error"] onController:[ApplicationHelper topmostViewController]];
+	}];
+	
+	// Appearance
+	[[UITabBar appearance] setTintColor:[UIColor orangeColor]];
+	[[UISearchBar appearance] setTintColor:[UIColor orangeColor]];
+	
 	return YES;
 }
 
@@ -38,8 +58,18 @@
 	// Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application {
+- (void)applicationWillTerminate:(UIApplication *)application
+{
 	// Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+	[MagicalRecord cleanUp];
+}
+
+#pragma mark - Setup
+
+- (void)setupDB
+{
+	// Setup Core Data Stack with Magical Record
+	[MagicalRecord setupCoreDataStack];
 }
 
 @end

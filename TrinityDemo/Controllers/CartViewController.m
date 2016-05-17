@@ -7,21 +7,56 @@
 //
 
 #import "CartViewController.h"
+#import "BookTableViewController.h"
+
+#import "BooksManager.h"
+#import "Book.h"
+
+#import <MagicalRecord/MagicalRecord.h>
+#import "NSObject+Additions.h"
+
 
 @interface CartViewController ()
-
+{
+	BookTableViewController* bookTableVC;
+}
 @end
 
 @implementation CartViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad
+{
 	[super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	[self setupUI];
 }
 
 - (void)didReceiveMemoryWarning {
 	[super didReceiveMemoryWarning];
 	// Dispose of any resources that can be recreated.
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+	[super viewWillAppear:animated];
+	[self updateUI];
+}
+
+#pragma mark - UI
+
+- (void)setupUI
+{
+	bookTableVC = self.childViewControllers.firstObject;
+	bookTableVC.onDatabase = YES;
+	bookTableVC.loadNextDataPageOnCompletion = nil;
+}
+
+- (void)updateUI
+{
+	// Get data from DB
+	NSArray* data = [Book MR_findAll];
+	BooksPagination pagination = {.offset = 0, .limit = 0, .totalCount = 0, .canLoadPage = NO};
+	
+	[bookTableVC updateWithData:data pagination:pagination fromScratch:YES];
 }
 
 @end
