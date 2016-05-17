@@ -4,12 +4,10 @@
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "F86E77A19A3F9994C0E5AA85BEF22F6E02394255" : 0,
     "9A8E8986C1664DDAC698BB7C58587C61DF97E737" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FB03B075-ABCF-4FED-978D-35448A1FBCEC",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "F86E77A19A3F9994C0E5AA85BEF22F6E02394255" : "..\/misc\/PayMax",
     "9A8E8986C1664DDAC698BB7C58587C61DF97E737" : "TrinityDemo\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TrinityDemo",
@@ -20,11 +18,6 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/vladimir-kuzmichev\/TrinityDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9A8E8986C1664DDAC698BB7C58587C61DF97E737"
-    },
-    {
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/gitlab.synergetica.net\/vk\/paymax.git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F86E77A19A3F9994C0E5AA85BEF22F6E02394255"
     }
   ]
 }
